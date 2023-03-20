@@ -27,6 +27,7 @@ int main(int argc, char *argv[])
 {
     UNUSED(argc);
     UNUSED(argv);
+    printf("start...\n");
 
     srand(time(NULL));
     char line[1024];
